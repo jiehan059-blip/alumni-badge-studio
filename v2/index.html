@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>校协工牌 · 画布版 v2</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<header class="bar">
+  <div class="brand"><span class="mark">协<span>✳</span></span><strong>校协工牌 · 画布版</strong><em>v2</em></div>
+  <div class="actions">
+    <button data-act="undo" title="撤销 Ctrl+Z">↶</button>
+    <button data-act="redo" title="重做 Ctrl+Shift+Z">↷</button>
+    <span class="sep"></span>
+    <button data-act="json">保存设计</button>
+    <label class="btn">导入<input id="file-json" type="file" accept=".json" hidden></label>
+    <button data-act="png" class="primary">导出 PNG</button>
+    <button data-act="3d">3D 预览</button>
+    <a class="btn ghost" href="../">返回旧版</a>
+  </div>
+</header>
+
+<main>
+  <aside class="panel left">
+    <h3>添加元素</h3>
+    <div class="grid2">
+      <button data-add="dept">部门大字</button>
+      <button data-add="assoc">协会名称</button>
+      <button data-add="name">姓名</button>
+      <button data-add="position">职务</button>
+      <button data-add="slogan">口号</button>
+      <button data-add="logo">协会标志</button>
+      <button data-add="star">星光</button>
+      <button data-add="line">分隔线</button>
+    </div>
+    <h3>图层</h3>
+    <ul id="layers" class="layers"></ul>
+    <p class="hint">双击文字直接改；拖动四角缩放；顶部圆点旋转。</p>
+  </aside>
+
+  <section class="stage">
+    <div id="canvas-wrap"><canvas id="c"></canvas></div>
+    <div class="stage-note">70 × 100 mm · 拖动 / 缩放 / 旋转</div>
+  </section>
+
+  <aside class="panel right">
+    <h3>属性</h3>
+    <div id="props" class="props"><p class="hint">选中画布上的元素后可调参数</p></div>
+  </aside>
+</main>
+
+<div id="d3d" class="modal" hidden>
+  <div class="modal-box">
+    <div class="modal-head"><strong>3D 亚克力预览</strong><button data-act="close3d">关闭</button></div>
+    <div id="viewer3d" class="viewer3d"></div>
+    <div class="modal-foot">
+      <button data-view="threequarter">三分之四</button>
+      <button data-view="front">正面</button>
+      <button data-view="edge">侧边</button>
+      <label class="inline">厚度 <input id="d3d-thickness" type="range" min="1" max="8" step="0.2" value="3"></label>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast"></div>
+<script defer src="./app.js"></script>
+</body>
+</html>
