@@ -1,0 +1,45 @@
+字体与组件说明
+字体由用户已有工牌项目提供，本交付未新购字体。转换格式未修改字形。
+
+jiangxi
+  nameID 1: jiangxizhuokai
+  nameID 1: 江西拙楷
+  nameID 7: fontree
+  nameID 8: fontree
+  nameID 9: huang yu chen
+
+alimama
+  nameID 0: Copyright (c) 2023 Alibaba (China) Co., Ltd. All rights reserved.
+  nameID 0: (c) 2023 阿里巴巴（中国）有限公司，版权所有
+  nameID 1: Alimama DongFangDaKai
+  nameID 1: 阿里妈妈东方大楷
+  nameID 7: Alibaba is a trademark of Alibaba Group Holding Limited.
+  nameID 7: 阿里巴巴、Alibaba是阿里巴巴集团在中国及其他国家或地区的商标或注册商标
+  nameID 8: Alibaba Design
+  nameID 9: Chen Qihui, Hong Liangfen, Liu Chuan, Han Xiaoming, Li Dandan, Chen Yangjian, Gong Wei, Yi Si, Wang Chi, Zhou Min, Li Mu
+  nameID 9: 陈奇辉、洪良奋、刘川、韩小明、李丹丹、陈养剑、龚巍、壹丝、王弛、周敏、李穆
+
+wenkai
+  nameID 0: Copyright 2021 LXGW (https://github.com/lxgw/LxgwWenKai)
+Copyright 2020 The Klee Project Authors (https://github.com/fontworks-fonts/Klee)
+  nameID 1: LXGW WenKai
+  nameID 1: 霞鹜文楷
+  nameID 7: Klee is a trademark of Fontworks Inc.
+  nameID 9: Fontworks Inc.
+  nameID 13: This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL
+  nameID 14: https://scripts.sil.org/OFL
+
+hanchan
+  nameID 0: © 2019 Hanchan Type. All Rights Reserved.
+  nameID 1: HCSZT
+  nameID 1: 寒蝉手拙体
+  nameID 7: (
+    936
+)
+  nameID 8: Hanchan Type
+  nameID 9: Hanchan Type
+
+Three.js 0.186.1 — MIT license
+https://github.com/mrdoob/three.js/blob/dev/LICENSE
+霞鹜文楷官方OFL：https://github.com/lxgw/LxgwWenKai/blob/main/OFL.txt
+江西拙楷作者发布页：https://www.zcool.com.cn/work/ZNDE4MzY4Mjg=.html
